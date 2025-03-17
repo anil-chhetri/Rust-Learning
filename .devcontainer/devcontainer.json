@@ -1,6 +1,6 @@
 {
   "image": "mcr.microsoft.com/devcontainers/universal:2",
   "features": {},
-  "ghcr.io/devcontainers-extra/features/bash-command:1": "echo \"source /workspaces/Rust-Learning/env-setup.sh\"  >> ~/.bashrc"
+   "postCreateCommand": "echo \"source /workspaces/Rust-Learning/env-setup.sh\"  >> ~/.bashrc"
 
 }
