@@ -1,6 +1,24 @@
 {
   "image": "mcr.microsoft.com/devcontainers/universal:2",
   "features": {},
-   "postCreateCommand": "echo \"source /workspaces/Rust-Learning/env-setup.sh\"  >> ~/.bashrc"
-
+  "postCreateCommand": "echo \"source /workspaces/Rust-Learning/env-setup.sh\"  >> ~/.bashrc",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "rust-lang.rust-analyzer"
+      ],
+      "settings": {
+        "keybindings": [
+          {
+            "key": "ctrl+alt+t",
+            "command": "workbench.action.createTerminalEditor"
+          },
+          {
+            "key": "ctrl+alt+s",
+            "command": "workbench.action.splitEditorToRightGroup"
+          }
+        ]
+      }
+    }
+  }
 }
