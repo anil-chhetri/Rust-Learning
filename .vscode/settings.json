@@ -1,0 +1,7 @@
+{
+    "window.zoomLevel": 0,
+    "editor.fontSize": 12,
+    "rust-analyzer.linkedProjects": [
+        "${workspaceFolder}/week1/DataTypes/Cargo.toml"
+    ]
+}

@@ -1,6 +1,5 @@
 #!/bin/bash
-PROMPT_DIRTRIM=1
-export PS1="\\w> "
+export PS1="\\W> "
 
 #source ~/path/to/shell-functions.sh
 # echo "source /workspaces/Rust-Learning/env-setup.sh"  >> ~/.bashrc
