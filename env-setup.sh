@@ -1,4 +1,5 @@
 #!/bin/bash
+PROMPT_DIRTRIM=1
 export PS1="\\w> "
 
 #source ~/path/to/shell-functions.sh
