@@ -16,6 +16,14 @@
           {
             "key": "ctrl+alt+s",
             "command": "workbench.action.splitEditorToRightGroup"
+          },
+          {
+            "key": "ctrl+alt+l",
+            "command": "workbench.action.focusLeftGroup"
+          },
+          {
+            "key": "ctrl+alt+r",
+            "command": "workbench.action.focusRightGroup"
           }
         ]
       }
