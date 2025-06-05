@@ -1,0 +1,7 @@
+{
+    "window.zoomLevel": 0,
+    "editor.fontSize": 13,
+    "rust-analyzer.linkedProjects": [
+        "${workspaceFolder}/command-line-file-reader/Cargo.toml"
+    ]
+}
