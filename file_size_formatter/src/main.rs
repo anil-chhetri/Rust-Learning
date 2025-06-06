@@ -32,7 +32,7 @@ impl SizeKind {
         match size_kind {
             SizeKind::B(b) => Ok(format!("{} Kilobytes", b / 1_000.0)),
             SizeKind::Kb(kb) => Ok(format!("{} Kilobytes", (kb))),
-            SizeKind::Mb(mb) => Ok(format!("{} Kilobytes", (mb * 1_000_000.0))),
+            SizeKind::Mb(mb) => Ok(format!("{} Kilobytes", (mb * 1_000.0))),
             SizeKind::Gb(gb) => Ok(format!("{} Kilobytes", (gb * 1_000_000_000.0))),
             SizeKind::Error(_s) => Err("cannot convert ".to_string()),
         }
