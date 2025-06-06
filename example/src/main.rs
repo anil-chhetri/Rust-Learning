@@ -89,6 +89,37 @@ fn not_panicking_example() {
     };
 }
 
+fn vector_operation() {
+    let mut vector = vec![1, 2, 3, 4, 5, 6];
+    let mut another_vector = Vec::new();
+
+    another_vector.push(10);
+    another_vector.push(20);
+    another_vector.push(30);
+
+    println!("presenting new vector {:?}", vector);
+    println!("presenting another vector {:?}", another_vector);
+
+    println!("removing entity from both vector");
+
+    vector.pop();
+    another_vector.pop();
+
+    println!("presenting new vector {:?}", vector);
+    println!("presenting another vector {:?}", another_vector);
+
+    println!("extending the vector");
+
+    vector.append(&mut another_vector);
+    println!("new vector: {:?}", vector);
+    println!("appended vector: {:?}", another_vector);
+
+    let mut another_vector_2 = vec![2, 3, 4, 5, 6, 7, 8];
+    vector.append(&mut another_vector_2);
+    println!("next new vector {:?}", another_vector_2);
+    println!("old vector {:?}", vector);
+}
+
 fn main() {
     process_data(&[1, 2, 3, 4, 5]);
     println!("Data processed successfully.");
@@ -99,5 +130,9 @@ fn main() {
     // let new_vector_object = vec![1, 2, 3, 45, -5];
     // loop_and_panic(new_vector_object);
 
-    not_panicking_example()
+    not_panicking_example();
+
+    println!("=====================");
+
+    vector_operation();
 }

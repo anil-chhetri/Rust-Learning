@@ -1,8 +1,10 @@
 {
-    "window.zoomLevel": 0,
+    "window.zoomLevel": 2,
     "editor.fontSize": 13,
     "rust-analyzer.linkedProjects": [
-        "${workspaceFolder}/command-line-file-reader/Cargo.toml"
+        "${workspaceFolder}/command-line-file-reader/Cargo.toml",
+        "${workspaceFolder}/example/Cargo.toml",
+        "${workspaceFolder}/struct_example/Cargo.toml",
     ],
     "rust-analyzer.checkOnSave": true
 }
