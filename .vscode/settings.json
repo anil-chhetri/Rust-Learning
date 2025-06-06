@@ -1,10 +1,13 @@
 {
     "window.zoomLevel": 2,
     "editor.fontSize": 13,
+    "terminal.integrated.fontSize": 10,
     "rust-analyzer.linkedProjects": [
         "${workspaceFolder}/command-line-file-reader/Cargo.toml",
         "${workspaceFolder}/example/Cargo.toml",
         "${workspaceFolder}/struct_example/Cargo.toml",
+        "${workspaceFolder}/file_size_formatter/Cargo.toml",
+
     ],
     "rust-analyzer.checkOnSave": true
 }
