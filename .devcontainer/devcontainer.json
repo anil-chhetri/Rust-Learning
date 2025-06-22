@@ -11,7 +11,8 @@
 		"vscode": {
 			"extensions": [
 				"GitHub.copilot",
-				"rust-lang.rust-analyzer"
+				"rust-lang.rust-analyzer",
+				"PKief.material-icon-theme"
 			],
 			"settings": {
 				"editor.formatOnSave": true,
@@ -19,7 +20,8 @@
 				"editor.autoClosingBrackets": "always",
 				"rust-analyzer.cargo.loadOutDirsFromCheck": true,
 				"rust-analyzer.checkOnSave.command": "clippy",
-				"rust-analyzer.cargo.autoreload": true
+				"rust-analyzer.cargo.autoreload": true,
+				"workbench.iconTheme": "material-icon-theme"
 			}
 		}
 	}
