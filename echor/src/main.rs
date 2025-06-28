@@ -27,8 +27,6 @@ fn main() {
 
     let isnewline = matches.get_flag("omit_newline");
 
-    println!("{}", isnewline);
-
     println!(
         "{}{}",
         text.join(" "),
