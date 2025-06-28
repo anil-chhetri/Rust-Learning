@@ -2,7 +2,8 @@
     "rust-analyzer.checkOnSave": true,
     "rust-analyzer.linkedProjects": [
         "${workspaceFolder}/hello/Cargo.toml",
-        "${workspaceFolder}/echor/Cargo.toml"
+        "${workspaceFolder}/echor/Cargo.toml",
+        "${workspaceFolder}/module_test/Cargo.toml"
 
     ],
     "workbench.iconTheme": "material-icon-theme"
