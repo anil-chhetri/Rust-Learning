@@ -4,7 +4,12 @@
         "${workspaceFolder}/hello/Cargo.toml",
         "${workspaceFolder}/echor/Cargo.toml",
         "${workspaceFolder}/module_test/Cargo.toml",
-        "${workspaceFolder}/CLI_test/Cargo.toml"
+        "${workspaceFolder}/CLI_test/Cargo.toml",
+        "${workspaceFolder}/Random/hello_rust/Cargo.toml",
+        "${workspaceFolder}/Random/module_demo/Cargo.toml",
+
+
     ],
-    "workbench.iconTheme": "material-icon-theme"
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.formatOnSave": true
 }

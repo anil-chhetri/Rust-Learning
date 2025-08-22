@@ -1,0 +1,12 @@
+[alias]
+
+c = "check"
+b = "build"
+r = "run"
+t = "test -- --nocapture"
+lint = "clippy -- -D warnings"
+fmt = "fmt"
+doc = "doc --open"
+
+[env]
+RUST_BACKTRACE = "1"
