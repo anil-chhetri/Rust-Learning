@@ -7,6 +7,7 @@
         "${workspaceFolder}/CLI_test/Cargo.toml",
         "${workspaceFolder}/Random/hello_rust/Cargo.toml",
         "${workspaceFolder}/Random/module_demo/Cargo.toml",
+        "${workspaceFolder}/Random/workspace_demo/hello_workspace/Cargo.toml"
 
 
     ],

@@ -1,0 +1,10 @@
+[workspace]
+members = [
+    "hello_cli", "utils"
+]
+resolver = "3"
+
+[profile.dev]
+opt-level = 1
+debug = true
+overflow-checks = true
